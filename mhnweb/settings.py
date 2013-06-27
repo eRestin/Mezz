@@ -1,4 +1,4 @@
-
+ALLOWED_HOSTS = ['*']
 ######################
 # MEZZANINE SETTINGS #
 ######################
@@ -122,7 +122,7 @@ SITE_ID = 1
 USE_I18N = False
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = "932e6094-2345-4ed3-9835-65790ebb164eba11e469-02a9-4ff5-b462-32206064cc7e167d3f8b-72ff-4325-a149-18129e85ece9"
+SECRET_KEY = "733be3b1-37d8-47ca-8915-e31a151a6846e2e59e1b-5393-407d-8542-ee1e12114827eddfb52e-3143-4f8c-80ec-b198f42cc3eb"
 
 # Tuple of IP addresses, as strings, that:
 #   * See debug comments, when DEBUG is true
