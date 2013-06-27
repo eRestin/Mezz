@@ -94,11 +94,11 @@
     {% endblock %}
 </div>
 
-<div class="span7 middle">
+<div class="span10 middle">
     {% block main %}{% endblock %}
-</div>
 
-<div class="span3 right">
+{% block feed_panel %}
+<div class="span3 right" style="float:right;">
     {% nevercache %}
     {% include "includes/user_panel.html" %}
     {% endnevercache %}
@@ -110,6 +110,9 @@
     {% endblock %}
     </div>
 </div>
+{% endblock %}
+
+</div>
 
 </div>
 </div>
@@ -117,6 +120,7 @@
 <footer>
 <div class="container">
 {% page_menu "pages/menus/footer.html" %}
+<!--
 <p>
     {% trans "Powered by" %}
     <a href="http://mezzanine.jupo.org">Mezzanine</a>{% ifinstalled cartridge.shop %},
@@ -130,6 +134,7 @@
     <a href="{% url "set_device" "mobile" %}?next={{ request.path }}">{% trans "View Mobile Site" %}</a>
     {% endifinstalled %}
 </p>
+-->
 </div>
 </footer>
 
