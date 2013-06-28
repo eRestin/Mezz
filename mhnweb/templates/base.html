@@ -45,7 +45,7 @@
 
 </head>
 <body id="{% block body_id %}body{% endblock %}">
-
+<!--
 <div class="navbar navbar-fixed-top">
 <div class="navbar-inner">
 <div class="container">
@@ -63,7 +63,7 @@
 </div>
 </div>
 </div>
-
+-->
 <div class="container">
 
 {% nevercache %}
@@ -77,22 +77,26 @@
 
 <h1>{% block title %}{% endblock %}</h1>
 
-<ul class="breadcrumb">
 {% spaceless %}
+<div class="span12 menu_smth" style="margin-left: 0px;">
+<div class="navbar">{% page_menu "pages/menus/menu.html" %}</div>
+<!--
 {% block breadcrumb_menu %}{% page_menu "pages/menus/breadcrumb.html" %}{% endblock %}
+-->
 {% endspaceless %}
-</ul>
+</div>
 
 </div>
 
 <div class="container">
 <div class="row">
-
+<!--
 <div class="span2 left">
     {% block left_panel %}
-    <div class="panel tree">{% page_menu "pages/menus/tree.html" %}</div>
+    <div class="navbar">{% page_menu "pages/menus/tree.html" %}</div>
     {% endblock %}
 </div>
+-->
 {% block feed_panel %}
 <div class="span7 middle">
     {% block main %}{% endblock %}
