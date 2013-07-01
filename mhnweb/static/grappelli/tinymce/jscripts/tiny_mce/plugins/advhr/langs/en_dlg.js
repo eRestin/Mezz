@@ -1,1 +1,1 @@
-tinyMCE.addI18n('en.advhr_dlg',{size:"Height",noshade:"No Shadow",width:"Width",normal:"Normal",widthunits:"Units"});
+/Library/Python/2.7/site-packages/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/langs/en_dlg.js

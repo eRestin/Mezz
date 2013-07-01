@@ -1,3 +1,1 @@
-tinyMCE.addI18n('en.example_dlg',{
-	title : 'This is just a example title'
-});
+/Library/Python/2.7/site-packages/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/langs/en_dlg.js

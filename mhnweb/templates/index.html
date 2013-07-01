@@ -61,23 +61,20 @@
     </li>
 	</ul>
 	</div><!-- end bannerdiv -->
+
+	<div id="main_menu">
+    <table width="100%" border="0">
+	<tr>
+    <td><a href="services.html"><img src="{{ MEDIA_URL }}uploads/img/services_link.jpg" alt="Services" id="cases_block" /></a></td>
+    <td><a href="projects.html"><img class="img_a" src="{{ MEDIA_URL }}uploads/img/case_studies_link.jpg" alt="Case Studies" id="cases_block" /></a></td>
+    <td><a href="about_us.html"><img class="img_a" src="{{ MEDIA_URL }}uploads/img/about_us_link.jpg" alt="About Us" id="cases_block" /></a></td>
+    <td><a href="contact.html"><img class="img_a" src="{{ MEDIA_URL }}uploads/img/contact_link.jpg" alt="Contact Us" id="cases_block" /></a></td>
+	</tr>
+	</table>
+	</div><!-- end main_menu -->
 	
 </div>
 {% endblock %}
 
-{% blocktrans %}
-<h2>Congratulations!</h2>
-<p>
-    Welcome
-</p>
-<ul>
-    <li><a href="/admin/">Log in to the admin interface</a></li>
-    <li><a href="http://mezzanine.jupo.org/docs/content-architecture.html">Creating custom page types</a></li>
-    <li><a href="http://mezzanine.jupo.org/docs/frequently-asked-questions.html#templates">Modifying HTML templates</a></li>
-    <li><a href="http://mezzanine.jupo.org/docs/frequently-asked-questions.html#why-isn-t-the-homepage-a-page-object-i-can-edit-via-the-admin">Changing this homepage</a></li>
-    <li><a href="http://mezzanine.jupo.org/docs/frequently-asked-questions.html">Other frequently asked questions</a></li>
-    <li><a href="http://mezzanine.jupo.org/docs/configuration.html#default-settings">Full list of settings</a></li>
-    <li><a href="http://mezzanine.jupo.org/docs/deployment.html">Deploying to a production server</a></li>
-</ul>
-{% endblocktrans %}
+
 {% endblock %}

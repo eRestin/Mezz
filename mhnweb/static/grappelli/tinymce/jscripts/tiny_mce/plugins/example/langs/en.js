@@ -1,3 +1,1 @@
-tinyMCE.addI18n('en.example',{
-	desc : 'This is just a template button'
-});
+/Library/Python/2.7/site-packages/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/langs/en.js
