@@ -66,10 +66,10 @@
 	<div id="main_menu">
     <table width="100%" border="0">
 	<tr>
-    <td><a href="services.html"><img src="{{ MEDIA_URL }}uploads/img/services_link.jpg" alt="Services" id="cases_block" /></a></td>
-    <td><a href="projects.html"><img class="img_a" src="{{ MEDIA_URL }}uploads/img/case_studies_link.jpg" alt="Case Studies" id="cases_block" /></a></td>
-    <td><a href="about_us.html"><img class="img_a" src="{{ MEDIA_URL }}uploads/img/about_us_link.jpg" alt="About Us" id="cases_block" /></a></td>
-    <td><a href="contact.html"><img class="img_a" src="{{ MEDIA_URL }}uploads/img/contact_link.jpg" alt="Contact Us" id="cases_block" /></a></td>
+    <td><a href="services"><img class="img_a" src="{{ MEDIA_URL }}uploads/img/services_link.jpg" alt="Services" id="cases_block" /></a></td>
+    <td><a href="case-studies"><img class="img_a" src="{{ MEDIA_URL }}uploads/img/case_studies_link.jpg" alt="Case Studies" id="cases_block" /></a></td>
+    <td><a href="about"><img class="img_a" src="{{ MEDIA_URL }}uploads/img/about_us_link.jpg" alt="About Us" id="cases_block" /></a></td>
+    <td><a href="contact"><img class="img_a" src="{{ MEDIA_URL }}uploads/img/contact_link.jpg" alt="Contact Us" id="cases_block" /></a></td>
 	</tr>
 	</table>
 	</div><!-- end main_menu -->
@@ -79,7 +79,7 @@
 {% blog_recent_posts 5 as recent_posts %}
 {% if recent_posts %}
 <h3>{% trans "News" %}</h3>
-<ul class="unstyled recent-posts">
+<ul class="unstyled recent-posts bloggy">
 {% for recent_post in recent_posts %}
 <li><a href="{{ recent_post.get_absolute_url }}"
     >{{ recent_post.title }}</a></li>
