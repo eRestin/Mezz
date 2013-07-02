@@ -15,7 +15,7 @@ li {line-height:20px;}
 
 
 /* Navigation */
-body {padding-top:45px;}
+body {padding-top:25px;}
 @media (max-width:960px){
     body {padding-top:0;} .brand {padding-right:20px !important;}}
 .navbar {z-index:500;}
@@ -133,6 +133,9 @@ a.btn-large, input.btn-large {width:auto; min-width:100px; margin-right:10px;}
   -moz-border-radius-bottomright: 5px;
   border-top-left-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+.main_logo {
+  margin-bottom: 10px;
 }
 #main_menu {
   margin-top: 15px;
