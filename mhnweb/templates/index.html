@@ -82,7 +82,7 @@
 <ul class="unstyled recent-posts bloggy">
 {% for recent_post in recent_posts %}
 <li><a href="{{ recent_post.get_absolute_url }}"
-    >{{ recent_post.title }}</a> {{ recent_post.publish_date|timesince }} {% trans "ago" %}</li>
+    >{{ recent_post.title }}</a> <h6>{{ recent_post.publish_date|timesince }} {% trans "ago" %}<h6><hr></li>
 {% endfor %}
 </ul>
 {% endif %}
