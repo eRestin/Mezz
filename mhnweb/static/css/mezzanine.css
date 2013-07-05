@@ -144,6 +144,9 @@ a.btn-large, input.btn-large {width:auto; min-width:100px; margin-right:10px;}
 .foots {
   text-align: right;
 }
+.bloggy {
+  margin:5px 0px 5px 30px;
+}
 /* rotator in-page placement */
   div.rotator {
   position:relative;

@@ -70,11 +70,12 @@
 
 <div class="container">
 <div class="row">
+
 {% block feed_panel %}
+<img src="{{ MEDIA_URL }}uploads/img/blog.jpg" class="bloggy" alt="MHN Blog" />
 <div class="span7 middle">
     {% block main %}{% endblock %}
 </div>
-
 <div class="span3 right">
     {% nevercache %}
     {% include "includes/user_panel.html" %}
