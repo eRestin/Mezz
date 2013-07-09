@@ -1,1 +1,0 @@
-/Library/Python/2.7/site-packages/mezzanine/forms/static/mezzanine/js/admin/form_entries.js

@@ -1,1 +1,0 @@
-/Library/Python/2.7/site-packages/mezzanine/core/static/js/html5shiv.js

@@ -1,1 +1,0 @@
-/Library/Python/2.7/site-packages/grappelli_safe/static/grappelli/js/admin/Changelist.js
