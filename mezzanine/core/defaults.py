@@ -245,7 +245,7 @@ register_setting(
         "li", "map", "menu", "ol", "optgroup", "option", "p", "pre", "q",
         "s", "samp", "select", "small", "span", "strike", "strong", "sub",
         "sup", "table", "tbody", "td", "textarea", "tfoot", "th", "thead",
-        "tr", "tt", "u", "ul", "var", "wbr"),
+        "tr", "tt", "u", "ul", "var", "wbr", "iframe"),
 )
 
 register_setting(
