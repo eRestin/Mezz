@@ -192,6 +192,6 @@ a.btn-large, input.btn-large {width:auto; min-width:100px; margin-right:10px;}
   color: #000000;
   font-size: 17px;
 }
-.iframe {
+iframe[seamless]{
   border:0px;
 }
