@@ -245,7 +245,13 @@ register_setting(
         "li", "map", "menu", "ol", "optgroup", "option", "p", "pre", "q",
         "s", "samp", "select", "small", "span", "strike", "strong", "sub",
         "sup", "table", "tbody", "td", "textarea", "tfoot", "th", "thead",
-        "tr", "tt", "u", "ul", "var", "wbr", "iframe"),
+        "tr", "tt", "u", "ul", "var", "wbr"),
+)
+
+register_setting(
+    name="RICHTEXT_ALLOWED_TAGS",
+    append=True,
+    default=("iframe", "embed"), #etc
 )
 
 register_setting(
