@@ -203,6 +203,8 @@ iframe:not([seamless]){
 }
 .dark-red {
   color: #F47827;
+  float:right;
+  margin-top: -20px;
 }
 .slider{
   display:none;
