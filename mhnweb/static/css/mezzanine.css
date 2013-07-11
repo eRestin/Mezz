@@ -8,7 +8,7 @@ h6 a {color:#666;}
 .right h6 {margin-top:10px;}
 .panel {background:rgba(220,220,220, 0.1); padding:10px 20px; margin-bottom:20px;
         line-height:170%; border:1px solid #eee; border-radius:5px;}
-p, ul {line-height:22px; margin-top:5px; margin-bottom:15px;}
+p, ul {line-height:22px; margin-top:5px; margin-bottom:15px; text-align: justify;}
 li {line-height:20px;}
 /* img {box-shadow:0 0 10px #bbb;} */
 .btn {cursor:pointer;}
@@ -194,4 +194,16 @@ a.btn-large, input.btn-large {width:auto; min-width:100px; margin-right:10px;}
 }
 iframe:not([seamless]){
   border:0px;
+}
+.slider{
+  display:none;
+}
+.collapseSlider{
+  display:none;
+}
+.sliderExpanded .collapseSlider{
+  display:block;
+}
+.sliderExpanded .expandSlider{
+  display:none;
 }
