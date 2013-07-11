@@ -201,6 +201,9 @@ iframe:not([seamless]){
 .dark-blue{
   color: #0068a6;
 }
+.dark-red {
+  color: #F47827;
+}
 .slider{
   display:none;
 }
