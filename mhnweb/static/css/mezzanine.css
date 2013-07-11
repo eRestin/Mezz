@@ -195,15 +195,29 @@ a.btn-large, input.btn-large {width:auto; min-width:100px; margin-right:10px;}
 iframe:not([seamless]){
   border:0px;
 }
+.blue {
+  color: #098eff;
+}
+.dark-blue{
+  color: #0068a6;
+}
 .slider{
   display:none;
 }
 .collapseSlider{
   display:none;
+  cursor:pointer;
+}
+.expandSlider {
+  cursor:pointer;
+}
+.closeSlider {
+  cursor:pointer;
 }
 .sliderExpanded .collapseSlider{
   display:block;
 }
 .sliderExpanded .expandSlider{
   display:none;
+  cursor:pointer;
 }
