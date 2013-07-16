@@ -101,7 +101,7 @@ sub {
 img {
   width: auto\9;
   height: auto;
-  max-width: 100%;
+  /* max-width: 100%; */
   vertical-align: middle;
   border: 0;
   -ms-interpolation-mode: bicubic;
@@ -231,14 +231,14 @@ body {
 }
 
 a {
-  color: #0088cc;
+  color: #000000 /*#0088cc*/;
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #005580;
-  text-decoration: underline;
+  color: #999999 /*#005580*/;
+  text-decoration: none /*underline*/;
 }
 
 .img-rounded {
@@ -761,6 +761,7 @@ h1,
 h2,
 h3 {
   line-height: 40px;
+  color: #737914;
 }
 
 h1 {
@@ -785,6 +786,7 @@ h5 {
 
 h6 {
   font-size: 11.9px;
+  font-weight: normal;
 }
 
 h1 small {
@@ -1630,8 +1632,10 @@ select:focus:invalid:focus {
   padding: 19px 20px 20px;
   margin-top: 20px;
   margin-bottom: 20px;
+  /*
   background-color: #f5f5f5;
   border-top: 1px solid #e5e5e5;
+  */
   *zoom: 1;
 }
 
@@ -1995,7 +1999,7 @@ legend + .control-group {
 }
 
 table {
-  max-width: 100%;
+  /*max-*/width: 100%;
   background-color: transparent;
   border-collapse: collapse;
   border-spacing: 0;
@@ -4357,6 +4361,7 @@ input[type="submit"].btn.btn-mini {
   *position: relative;
   *z-index: 2;
   margin-bottom: 20px;
+  margin-left: 20px;
   overflow: visible;
 }
 
@@ -4604,9 +4609,11 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav > li > a {
   float: none;
   padding: 10px 15px 10px;
-  color: #777777;
+  color: #ffffff /*#777777*/;
   text-decoration: none;
+  /*
   text-shadow: 0 1px 0 #ffffff;
+  */
 }
 
 .navbar .nav .dropdown-toggle .caret {
@@ -4615,17 +4622,25 @@ input[type="submit"].btn.btn-mini {
 
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
+  /*
   color: #333333;
   text-decoration: none;
   background-color: transparent;
+  */
+  color: #ffffff /*#555555*/;
+  text-decoration: none;
+  background-color: #a3ab1e /*#e5e5e5*/;
+  -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+     -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+          box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
 }
 
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus {
-  color: #555555;
+  color: #ffffff /*#555555*/;
   text-decoration: none;
-  background-color: #e5e5e5;
+  background-color: #F47827 /*#e5e5e5*/;
   -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
      -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
           box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
