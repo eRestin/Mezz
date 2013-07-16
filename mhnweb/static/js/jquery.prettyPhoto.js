@@ -653,29 +653,29 @@
 			pp_containerHeight = pp_contentHeight + titleHeight + $pp_pic_holder.find('.pp_top').height() + $pp_pic_holder.find('.pp_bottom').height();
 			pp_containerWidth = width;
 		}
-	
+		
 		function _getFileType(itemSrc){
-			if (itemSrc.match(/youtube\.com\/watch/i) || itemSrc.match(/youtu\.be/i)) {
+			if (itemSrc.match(/youtube\.com\/watch/i)) {
 				return 'youtube';
 			}else if (itemSrc.match(/vimeo\.com/i)) {
 				return 'vimeo';
-			}else if(itemSrc.match(/\b.mov\b/i)){ 
+			}else if(itemSrc.indexOf('.mov') != -1){
 				return 'quicktime';
-			}else if(itemSrc.match(/\b.swf\b/i)){
+			}else if(itemSrc.indexOf('.avi') != -1){
+				return 'quicktime';
+			}else if(itemSrc.indexOf('.mp4') != -1){
+				return 'quicktime';
+			}else if(itemSrc.indexOf('.swf') != -1){
 				return 'flash';
-			}else if(itemSrc.match(/\biframe=true\b/i)){
+			}else if(itemSrc.indexOf('iframe') != -1){
 				return 'iframe';
-			}else if(itemSrc.match(/\bajax=true\b/i)){
-				return 'ajax';
-			}else if(itemSrc.match(/\bcustom=true\b/i)){
-				return 'custom';
 			}else if(itemSrc.substr(0,1) == '#'){
 				return 'inline';
 			}else{
 				return 'image';
 			};
 		};
-	
+		
 		function _center_overlay(){
 			if(doresize && typeof $pp_pic_holder != 'undefined') {
 				scroll_pos = _get_scroll();
