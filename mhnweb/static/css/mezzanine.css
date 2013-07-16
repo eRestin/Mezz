@@ -226,9 +226,3 @@ iframe:not([seamless]){
   display:none;
   cursor:pointer;
 }
-input#id_field_1 {
-  width:480px;
-}
-input#id_field_2 {
-  width:480px;
-}
