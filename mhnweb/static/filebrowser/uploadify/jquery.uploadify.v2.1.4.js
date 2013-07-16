@@ -1,0 +1,1 @@
+/Library/Python/2.7/site-packages/filebrowser_safe/static/filebrowser/uploadify/jquery.uploadify.v2.1.4.js
