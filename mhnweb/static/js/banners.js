@@ -24,8 +24,9 @@ function rotate() {
 	
 	var sibs = current.siblings();
     	var rndNum = Math.floor(Math.random() * sibs.length );
+    	/*
         var next = $( sibs[ rndNum ] );
-			
+		*/	
 
 	//Set the fade in effect for the next image, the show class has higher z-index
 	next.css({opacity: 0.0})
