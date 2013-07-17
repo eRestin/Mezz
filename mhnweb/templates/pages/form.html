@@ -21,7 +21,7 @@ $(function() {$('.middle :input:visible:enabled:first').focus();});
     {{ page_form.content|richtext_filter|safe }}
     {% endeditable %}
     {% endwith %}
-    <div class="moj_test" style="margin:-245px 0px 0px 0px; float:right;">
+    <div class="contact_form">
     <form method="post"{% if form.is_multipart %} enctype="multipart/form-data"{% endif %}>
         {% fields_for form %}
         <div class="form-actions1">

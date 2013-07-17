@@ -192,6 +192,10 @@ a.btn-large, input.btn-large {width:auto; min-width:100px; margin-right:10px;}
   color: #000000;
   font-size: 17px;
 }
+.contact_form {
+  margin: -245px 0px 0px 0px;
+  float: right;
+}
 iframe:not([seamless]){
   border:0px;
 }
