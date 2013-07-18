@@ -2971,13 +2971,13 @@ table th[class*="span"],
   color: #ffffff;
   text-decoration: none;
   background-color: #0081c2;
-  background-image: -moz-linear-gradient(top, #737914, #575c10);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#737914), to(#575c10));
-  background-image: -webkit-linear-gradient(top, #737914, #575c10);
-  background-image: -o-linear-gradient(top, #737914, #575c10);
-  background-image: linear-gradient(to bottom, #737914, #575c10);
+  background-image: -moz-linear-gradient(top, #92991a, #7d8216);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#92991a), to(#7d8216));
+  background-image: -webkit-linear-gradient(top, #92991a, #7d8216);
+  background-image: -o-linear-gradient(top, #92991a, #7d8216);
+  background-image: linear-gradient(to bottom, #92991a, #7d8216);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff737914', endColorstr='#ff575c10', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff92991a', endColorstr='#ff7d8216', GradientType=0);
 }
 
 .dropdown-menu > .active > a,
@@ -2986,14 +2986,14 @@ table th[class*="span"],
   color: #ffffff;
   text-decoration: none;
   background-color: #0081c2;
-  background-image: -moz-linear-gradient(top, #737914, #575c10);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#737914), to(#575c10));
-  background-image: -webkit-linear-gradient(top, #737914, #575c10);
-  background-image: -o-linear-gradient(top, #737914, #575c10);
-  background-image: linear-gradient(to bottom, #737914, #575c10);
+  background-image: -moz-linear-gradient(top, #92991a, #7d8216);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#92991a), to(#7d8216));
+  background-image: -webkit-linear-gradient(top, #92991a, #7d8216);
+  background-image: -o-linear-gradient(top, #92991a, #7d8216);
+  background-image: linear-gradient(to bottom, #92991a, #7d8216);
   background-repeat: repeat-x;
   outline: 0;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff737914', endColorstr='#ff0077b3', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff92991a', endColorstr='#ff7d8216', GradientType=0);
 }
 
 .dropdown-menu > .disabled > a,
