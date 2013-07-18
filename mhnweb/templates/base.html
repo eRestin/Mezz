@@ -58,7 +58,9 @@
 {% endnevercache %}
 
 <div class="main_logo">
-<img src="{{ MEDIA_URL }}uploads/mhn_logo.png">
+    <a href="{% url "home" %}">
+        <img src="{{ MEDIA_URL }}uploads/mhn_logo.png">
+    </a>
 </div>
 
 {% spaceless %}
