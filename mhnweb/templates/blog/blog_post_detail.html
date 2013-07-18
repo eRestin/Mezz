@@ -25,6 +25,14 @@
 
 {% block blog_post_detail_postedby %}
 {% editable blog_post.publish_date %}
+<h3>MHN Blog</h3>
+
+{% block blog_post_detail_content %}
+{% editable blog_post.content %}
+{{ blog_post.content|richtext_filter|safe }}
+{% endeditable %}
+{% endblock %}
+
 <h6>
     {% trans "Posted by" %}:
     {% with blog_post.user as author %}
@@ -59,12 +67,6 @@
 {% if settings.COMMENTS_DISQUS_SHORTNAME %}
 {% include "generic/includes/disqus_counts.html" %}
 {% endif %}
-
-{% block blog_post_detail_content %}
-{% editable blog_post.content %}
-{{ blog_post.content|richtext_filter|safe }}
-{% endeditable %}
-{% endblock %}
 
 {% block blog_post_detail_keywords %}
 {% keywords_for blog_post as tags %}
