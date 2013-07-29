@@ -283,3 +283,23 @@ ul.boxes li {
 ul.boxes li:hover {
   color: #111;
 }
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+  text-align: center;
+  display: none;
+}
+#lightbox {
+  position: fixed;
+  top: 25%;
+  margin:0 0 0 32%;
+}
+.lightbox_close {
+  color:#ffffff;
+}
