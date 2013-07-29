@@ -28,6 +28,7 @@ jQuery(document).ready(function($) {
       } else {
  
                 var lightbox =
+            '<div class="container">' + 
             '<div id="overlay"></div>' + 
                 '<div id="lightbox" style="display:none;">' +
                     '<a class="lightbox_close" href="#">close</a>' +
@@ -36,6 +37,7 @@ jQuery(document).ready(function($) {
                          '<source src="' + video_src + '.webm" type="video/webm" class="v_source" />' +
                          '<source src="' + video_src + '.ogv" type="video/ogg" class="v_source" />' +
                         '</video>' +
+                '</div>'
                 '</div>';
             //insert lightbox HTML into page
             $('body').append(lightbox);

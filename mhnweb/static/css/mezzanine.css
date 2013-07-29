@@ -298,7 +298,7 @@ ul.boxes li:hover {
 #lightbox {
   position: fixed;
   top: 25%;
-  margin:0 0 0 32%;
+  margin:0 10% 0 9%;
 }
 .lightbox_close {
   color:#ffffff;
