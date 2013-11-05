@@ -304,6 +304,11 @@ ul.boxes li:hover {
 .lightbox_close {
   color:#ffffff;
 }
+.article-img {
+  background-image: url(../img/favicon.png);
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
 #share-buttons {
   padding: 4px;
   border: 1px solid #e0dddd;

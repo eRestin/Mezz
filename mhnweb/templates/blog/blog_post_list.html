@@ -81,11 +81,13 @@
 {% editable blog_post.publish_date %}
 <h6>
     {% trans "Posted" %}:
-    {% comment %}Removed author
+
+    {% comment %} Removed author
     {% with blog_post.user as author %}
     <a href="{% url "blog_post_list_author" author %}">{{ author.get_full_name|default:author.username }}</a>
     {% endwith %}
     {% endcomment %}
+    
     {% with blog_post.category.all as categories %}
     {% if categories %}
     {% trans "in" %}
