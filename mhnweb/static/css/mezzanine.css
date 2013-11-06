@@ -311,9 +311,11 @@ ul.boxes li:hover {
 }
 #share-buttons {
   padding: 4px;
-  border: 1px solid #e0dddd;
-  background-color: #eee;
+  border: 2px solid #EEE;
+  background: rgba(220, 220, 220, 0.1)
+  /*
   -moz-border-radius: 10px; -webkit-border-radius: 10px; -khtml-border-radius: 10px;  border-radius: 10px; -o-border-radius: 10px;
+  */
 }
 #share-buttons img {
   width: 35px !important;
