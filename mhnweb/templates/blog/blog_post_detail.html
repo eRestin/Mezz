@@ -26,7 +26,7 @@
 {% block blog_post_detail_postedby %}
 {% editable blog_post.publish_date %}
 <h3>MHN Blog</h3>
-<h3 class="blog_details">{{ blog_post.title }}</h3>
+<h4 class="blog_details">{{ blog_post.title }}</h4>
 {% block blog_post_detail_content %}
 {% editable blog_post.content %}
 {{ blog_post.content|richtext_filter|safe }}
@@ -99,9 +99,11 @@ I'm leaving this for test new buttons
 
 {% endcomment %}
 
+<h3>Share!</h3>
+
 <!-- Share buttons -->
 <div id="share-buttons">
-Share!&nbsp
+
 <!-- Facebook -->
 <a target="_blank" href="http://facebook.com/sharer.php?u={{ request.build_absolute_uri }}&amp;t={{ blog_post.title|urlencode }}"><img src="{{ MEDIA_URL }}uploads/share_btn/facebook.png" class="img_a" alt="Facebook" /></a>
  
