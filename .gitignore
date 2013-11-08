@@ -2,7 +2,8 @@
 *.pyo
 *.db
 .DS_Store
+mezzanine/.DS_Store
+mhnweb/.DS_Store
 .coverage
 local_settings.py
-mezzanine/.DS_Store
 mhnweb/static/media/uploads/.thumbnails
