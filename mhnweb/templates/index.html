@@ -13,50 +13,54 @@
 
 {% block feed_panel %}
 <div class="span10 middle">
-	<div class="rotator">
-	<ul>
-    <li class="show">
-    <a href="case-studies/dap">
-    <img src="{{ MEDIA_URL }}uploads/banner_01.jpg" alt="MHN DAP" />
-    </a>
-    </li>
-    <li>
-    <a href="case-studies/flexpansion">
-    <img src="{{ MEDIA_URL }}uploads/banner_02.jpg" alt="Flexpansion" />
-    </a>
-    </li>
-    <li>
-    <a href="case-studies/levima">
-    <img src="{{ MEDIA_URL }}uploads/banner_03.jpg" alt="iTravelTrack" />
-    </a>
-    </li>
-    <li>
-    <a href="case-studies/charting">
-    <img src="{{ MEDIA_URL }}uploads/banner_04.jpg" alt="Charting" />
-    </a>
-    </li>
-    <li>
-    <a href="case-studies/informatic-ventures">
-    <img src="{{ MEDIA_URL }}uploads/banner_05.jpg" alt="Informatics Ventures" />
-    </a>
-    </li>
-    <li>
-    <a href="case-studies/companymot">
-    <img src="{{ MEDIA_URL }}uploads/banner_06.jpg" alt="CompanyMOT" />
-    </a>
-    </li>
-    <li>
-    <a href="case-studies/medvu">
-    <img src="{{ MEDIA_URL }}uploads/banner_07.jpg" alt="MedVU" />
-    </a>
-    </li>
-    <li>
-    <a href="case-studies/islandgis">
-    <img src="{{ MEDIA_URL }}uploads/banner_08.jpg" alt="IslandGIS" />
-    </a>
-    </li>
-	</ul>
-	</div><!-- end bannerdiv -->
+	<div id="banner-slide">
+
+        <!-- start Basic Jquery Slider -->
+        <ul class="bjqs">
+         <li>
+            <a href="case-studies/dap"><img src="{{ MEDIA_URL }}uploads/banner_01.jpg" alt="MHN DAP" /></a>
+         </li>
+         <li>
+            <a href="case-studies/flexpansion"><img src="{{ MEDIA_URL }}uploads/banner_02.jpg" alt="Flexpansion" /></a>
+         </li>
+         <li>
+            <a href="case-studies/levima"><img src="{{ MEDIA_URL }}uploads/banner_03.jpg" alt="iTravelTrack" /></a>
+         </li>
+         <li>
+            <a href="case-studies/charting"><img src="{{ MEDIA_URL }}uploads/banner_04.jpg" alt="Charting" /></a>
+         </li>
+         <li>
+            <a href="case-studies/informatic-ventures"><img src="{{ MEDIA_URL }}uploads/banner_05.jpg" alt="Informatics Ventures" /></a>
+         </li>
+         <li>
+            <a href="case-studies/companymot"><img src="{{ MEDIA_URL }}uploads/banner_06.jpg" alt="CompanyMOT" /></a>
+         </li>
+         <li>
+            <a href="case-studies/medvu"><img src="{{ MEDIA_URL }}uploads/banner_07.jpg" alt="MedVU" /></a>
+         </li>
+         <li>
+            <a href="case-studies/islandgis"><img src="{{ MEDIA_URL }}uploads/banner_08.jpg" alt="IslandGIS" /></a>
+         </li>
+        </ul>
+        <!-- end Basic jQuery Slider -->
+
+      </div>
+      <!-- End outer wrapper -->
+      
+      <!-- attach the plug-in to the slider parent element and adjust the settings as required -->
+      <script class="secret-source">
+        jQuery(document).ready(function($) {
+          
+          $('#banner-slide').bjqs({
+            animtype      : 'slide',
+            height        : 250,
+            width         : 960,
+            responsive    : true,
+            randomstart   : true
+          });
+          
+        });
+      </script>
 
 	<div id="main_menu">
     <table width="100%" border="0">
