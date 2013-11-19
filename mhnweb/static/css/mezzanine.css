@@ -1,4 +1,11 @@
-
+.mainborder {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  padding: 10px 20px 10px 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
 /* General elements */
 h3 {margin:10px 0;}
 h5 {line-height:140%; margin:20px 0 10px 0;}
