@@ -116,10 +116,15 @@ a.btn-large, input.btn-large {width:auto; min-width:100px; margin-right:10px;}
 
 
 /* Comments */
-.comment-author {background:#feffee !important;}
+.comment-author {/* background:#feffee !important; */}
 #comments li {padding:15px; display:block; border:2px solid #eee;
-              margin-top:10px; background:rgba(220,220,220, 0.1);
-              border-radius:3px;}
+              margin-top:10px; /* background:rgba(220,220,220, 0.1); */
+              -webkit-border-top-left-radius: 10px;
+              -webkit-border-bottom-right-radius: 10px;
+              -moz-border-radius-topleft: 10px;
+              -moz-border-radius-bottomright: 10px;
+              border-top-left-radius: 10px;
+              border-bottom-right-radius: 10px;}
 #comments li ul {padding:5px 0 0 30px;}
 #comments img {margin-right:5px; vertical-align:middle;}
 .reply-form {margin-top:20px;}
@@ -324,14 +329,14 @@ ul.boxes li:hover {
   background-repeat: no-repeat;
   padding-left: 20px;
 }
+/*
 #share-buttons {
   padding: 4px;
   border: 2px solid #EEE;
   background: rgba(220, 220, 220, 0.1)
-  /*
   -moz-border-radius: 10px; -webkit-border-radius: 10px; -khtml-border-radius: 10px;  border-radius: 10px; -o-border-radius: 10px;
-  */
 }
+*/
 #share-buttons img {
   width: 35px !important;
   padding: 4px;
