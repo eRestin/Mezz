@@ -68,7 +68,7 @@ footer .separator {opacity:0.3; margin:0 10px;}
 .input li {list-style-type:none;}
 .input li input {width:auto;}
 .input label {font-weight:normal;}
-textarea.input-xlarge {width:480px; height:150px;}
+textarea.input-xlarge {width: 480px; max-width:945px; height:150px;}
 .datefield select, .datetimefield select,
 .datefield input, .datetimefield input {width:auto; margin-right:5px;}
 .form-actions {/*background:rgba(220,220,220, 0.1); border-top:1px solid #eee; */margin-left:-10px !important;}
@@ -376,3 +376,4 @@ ol.bjqs-markers li {
 }
 .active-marker a { color:#DEBB1E; }
 p.bjqs-caption{display:block;width:96%;margin:0;padding:2%;position:absolute;bottom:0;}
+
