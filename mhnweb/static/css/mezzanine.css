@@ -366,6 +366,7 @@ ol.bjqs-markers li {
   background: #FFF;
   text-decoration: none;
   border-radius: 50%;
+  border:1px solid #E7E6E2;
   width: 26px;
   height: 26px;
   line-height: 26px;
