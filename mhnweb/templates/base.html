@@ -65,16 +65,16 @@
 {% endfor %}
 {% endnevercache %}
 
-<div class="main_logo">
+<div class="main_logo span4">
     <a href="{% url "home" %}">
         <img src="{{ MEDIA_URL }}uploads/mhn_logo.png">
     </a>
 </div>
 
-{% spaceless %}
-<div class="span10 menu_smth" style="margin-left: 0px;">
+
+<div class="span6 menu_smth">
 <div class="navbar">{% page_menu "pages/menus/menu.html" %}</div>
-{% endspaceless %}
+
 </div>
 
 </div>
@@ -102,6 +102,12 @@
 {% endblock %}
 
 </div>
+</div>
+</div>
+
+<div class="prefooter">
+<div class="container">
+{% page_menu "pages/menus/prefooter.html" %}
 </div>
 </div>
 

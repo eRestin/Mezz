@@ -771,12 +771,14 @@ h1 {
 }
 
 h2 {
-  font-size: 31.5px;
+  /* font-size: 31.5px; */
+  font-size: 24.5px;
+  color: #737914;
 }
 
 h3 {
   font-size: 24.5px;
-  color: #737914;
+  color: #ffffff;
 }
 
 h4 {
@@ -2971,8 +2973,9 @@ table th[class*="span"],
 .dropdown-menu > li > a:focus,
 .dropdown-submenu:hover > a,
 .dropdown-submenu:focus > a {
-  color: #ffffff;
+  color: #737914;
   text-decoration: none;
+  /*
   background-color: #0081c2;
   background-image: -moz-linear-gradient(top, #92991a, #7d8216);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#92991a), to(#7d8216));
@@ -2981,13 +2984,15 @@ table th[class*="span"],
   background-image: linear-gradient(to bottom, #92991a, #7d8216);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff92991a', endColorstr='#ff7d8216', GradientType=0);
+  */
 }
 
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
-  color: #ffffff;
+  color: #737914;
   text-decoration: none;
+  /*
   background-color: #0081c2;
   background-image: -moz-linear-gradient(top, #92991a, #7d8216);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#92991a), to(#7d8216));
@@ -2997,6 +3002,7 @@ table th[class*="span"],
   background-repeat: repeat-x;
   outline: 0;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff92991a', endColorstr='#ff7d8216', GradientType=0);
+  */
 }
 
 .dropdown-menu > .disabled > a,
@@ -3963,7 +3969,6 @@ input[type="submit"].btn.btn-mini {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eeeeee;
 }
 
 .nav > li > a > img {
@@ -4211,9 +4216,7 @@ input[type="submit"].btn.btn-mini {
 .nav-pills .open .dropdown-toggle,
 .nav > li.dropdown.open.active > a:hover,
 .nav > li.dropdown.open.active > a:focus {
-  color: #ffffff;
-  background-color: #a3ab1e;
-  border-color: #999999;
+  color: #f08421;
 }
 
 .nav li.dropdown.open .caret,
@@ -4617,8 +4620,8 @@ input[type="submit"].btn.btn-mini {
 
 .navbar .nav > li > a {
   float: none;
-  padding: 10px 15px 10px;
-  color: #ffffff /*#777777*/;
+  padding: 10px 10px 10px;
+  color: #777777;
   text-decoration: none;
   /*
   text-shadow: 0 1px 0 #ffffff;
@@ -4636,23 +4639,25 @@ input[type="submit"].btn.btn-mini {
   text-decoration: none;
   background-color: transparent;
   */
-  color: #ffffff /*#555555*/;
+  color: #555555;
   text-decoration: none;
-  background-color: #a3ab1e /*#e5e5e5*/;
+  /*
   -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
      -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
           box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+  */
 }
 
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus {
-  color: #ffffff /*#555555*/;
+  color: #555555;
   text-decoration: none;
-  background-color: #F47827 /*#e5e5e5*/;
+  /*
   -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
      -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
           box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+  */
 }
 
 .navbar .btn-navbar {

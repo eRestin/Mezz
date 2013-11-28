@@ -5,11 +5,8 @@
   padding: 10px 20px 10px 20px;
   background-color: #ffffff;
   -webkit-border-top-left-radius: 10px;
-  -webkit-border-bottom-right-radius: 10px;
   -moz-border-radius-topleft: 10px;
-  -moz-border-radius-bottomright: 10px;
   border-top-left-radius: 10px;
-  border-bottom-right-radius: 10px;
 }
 /* General elements */
 h3 {margin:10px 0;}
@@ -30,7 +27,7 @@ li {line-height:20px;}
 body {padding-top:25px;}
 @media (max-width:960px){
     body {padding-top:0;} .brand {padding-right:20px !important;}}
-.navbar {z-index:500;}
+.navbar {z-index:500; float:right; margin-right: -20px;}
 .navbar .btn {margin:7px 0;}
 .navbar-inner {border-radius:0;}
 .navbar-search * {margin:0 2px !important;}
@@ -44,7 +41,15 @@ ul.nav li.dropdown:hover ul.dropdown-menu {display:block;}
 .pull-right .dropdown-menu a {text-align:right;}
 .tree {padding:8px;}
 .tree li {margin:3px 0;}
-footer {/*background:rgba(220,220,220, 0.1);*/ padding:30px 0; text-align:center; /*margin-top:40px;*/}
+.prefooter {background:#737914;
+            padding: 20px 20px 20px 20px;
+            text-align:center; width: 960px;
+            margin: 0 auto;
+            -webkit-border-bottom-right-radius: 10px;
+            -moz-border-radius-bottomright: 10px;
+            border-bottom-right-radius: 10px;}
+.prefoot_img {width: 32px; height: 32px; margin: 0 5px;}
+footer {/*background:rgba(220,220,220, 0.1);*/ padding:10px 0; text-align:center; /*margin-top:40px;*/}
 footer .container {text-align:left; display:inline-block; width:auto;}
 footer li {float:left; list-style-type:none;}
 footer li li {float:none; clear:both; width:120px; padding:10px 0; margin-right:30px;}
@@ -143,17 +148,14 @@ a.btn-large, input.btn-large {width:auto; min-width:100px; margin-right:10px;}
 .image-overlay-next {right:30px;}
 .image-overlay-full {border-radius:5px; max-width:none !important; box-shadow:0 0 30px #222;}
 
-.menu_smth {
-  background-color: #737914;
-  -webkit-border-top-left-radius: 5px;
-  -webkit-border-bottom-right-radius: 5px;
-  -moz-border-radius-topleft: 5px;
-  -moz-border-radius-bottomright: 5px;
-  border-top-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
 .main_logo {
   margin-bottom: 10px;
+  margin-left:0px!important;
+}
+.menu_smth {
+  position: relative;
+  top: 70px;
+  height: 30px;
 }
 #main_menu {
   margin-top: 15px;
