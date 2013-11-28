@@ -25,7 +25,7 @@
 
 {% block blog_post_detail_postedby %}
 {% editable blog_post.publish_date %}
-<h3>MHN Blog</h3>
+<h2>MHN Blog</h2>
 <h4 class="blog_details">{{ blog_post.title }}</h4>
 {% block blog_post_detail_content %}
 {% editable blog_post.content %}
@@ -99,7 +99,7 @@ I'm leaving this for test new buttons
 
 {% endcomment %}
 
-<h3>Share!</h3>
+<h2>Share!</h2>
 
 <!-- Share buttons -->
 <div id="share-buttons">
@@ -152,7 +152,7 @@ I'm leaving this for test new buttons
 {% block blog_post_detail_related_posts %}
 {% if blog_post.related_posts.all %}
 <div id="related-posts">
-<h3>{% trans 'Related posts' %}</h3>
+<h2>{% trans 'Related posts' %}</h2>
 <ul class="unstyled">
 {% for post in blog_post.related_posts.all %}
      <li><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></li>
