@@ -82,7 +82,7 @@
 {% block blog_recent_posts %}
 {% blog_recent_posts 2 as recent_posts %}
 {% if recent_posts %}
-<h3>{% trans "News" %}</h3>
+<h2>{% trans "News" %}</h2>
 <ul class="unstyled recent-posts bloggy">
 {% for recent_post in recent_posts %}
 <li><a href="{{ recent_post.get_absolute_url }}"
