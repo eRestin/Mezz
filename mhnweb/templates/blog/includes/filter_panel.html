@@ -74,6 +74,7 @@
 {% endblock %}
 {% endcomment %}
 
+{% comment %} Removed feed
 {% block blog_feeds %}
 <h2>{% trans "Feeds" %}</h2>
 {% if tag %}
@@ -93,3 +94,4 @@
     <a href="{% url "blog_post_feed" "atom" %}">{% trans "Atom" %}</a>
 {% endif %}
 {% endblock %}
+{% endcomment %}
