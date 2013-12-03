@@ -91,13 +91,3 @@ urlpatterns = patterns("",
 # pages can use JS, CSS and images.
 handler404 = "mezzanine.core.views.page_not_found"
 handler500 = "mezzanine.core.views.server_error"
-
-# 404 test
-from django.conf import settings
-import os
-
-if settings.DEBUG404:
-    urlpatterns += patterns('',
-        (r'^static/(?P<path>.*)$', 'django.views.static.serve',
-         {'document_root': os.path.join(os.path.dirname(__file__), 'static')} ),
-    )
