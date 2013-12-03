@@ -2,15 +2,27 @@
 
 {% load i18n %}
 {% block indexpage %}
-<div class="span10">
-	<img src="{{ MEDIA_URL }}uploads/broken_leaf.png" alt="404" />
+<div class="container">
+	<div class="row">
+		<div class="span4">
+			<img src="{{ MEDIA_URL }}uploads/broken_leaf.png" alt="404" />
+		</div>
 
-{% block title %}
-<h1><b>{% trans "Error 404 – Not Found" %}</b></h1>
-{% endblock %}
+		<div class="span5">
+			{% block title %}
+			<h1><b>{% trans "Error 404 – Not Found" %}</b></h1>
+			{% endblock %}
 
-{% block main %}
-{% trans "Sorry, but what you’re looking for isn’t here. Perhaps you typed a URL incorrectly or clicked on a broken hyperlink." %}
-{% endblock %}
+			{% block main %}
+			<h4>
+			{% trans "Sorry, but what you’re looking for isn’t here. Perhaps you typed a URL incorrectly or clicked on a broken hyperlink." %}
+			</h4>
+			{% endblock %}
+
+			{% block errorlink %}
+			<a href="{% url "home" %}"><b>Return to the homepage.</b></a>
+			{% endblock %}
+		</div>
+	</div>
 </div>
 {% endblock %}

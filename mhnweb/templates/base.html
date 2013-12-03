@@ -54,6 +54,7 @@
 </head>
 <body id="{% block body_id %}body{% endblock %}">
 
+{% block indexpage %}
 <div class="mainborder">
 <div class="container">
 
@@ -65,7 +66,7 @@
 {% endfor %}
 {% endnevercache %}
 
-{% block indexpage %}
+
 <div class="main_logo span4">
     <a href="{% url "home" %}">
         <img src="{{ MEDIA_URL }}uploads/mhn_logo.png">
