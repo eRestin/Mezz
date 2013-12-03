@@ -13,11 +13,11 @@ ALLOWED_HOSTS = ['*']
 # Controls the ordering and grouping of the admin menu.
 #
 # ADMIN_MENU_ORDER = (
-#     ("Content", ("pages.Page", "blog.BlogPost",
+#     ("Content", ("pages.Page", "blog.BlogPost", "prefooter.SitewideContent",
 #        "generic.ThreadedComment", ("Media Library", "fb_browse"),)),
 #     ("Site", ("sites.Site", "redirects.Redirect", "conf.Setting")),
 #     ("Users", ("auth.User", "auth.Group",)),
-# )
+#)
 
 # A three item sequence, each containing a sequence of template tags
 # used to render the admin dashboard.

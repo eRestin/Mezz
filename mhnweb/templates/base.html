@@ -65,6 +65,7 @@
 {% endfor %}
 {% endnevercache %}
 
+{% block indexpage %}
 <div class="main_logo span4">
     <a href="{% url "home" %}">
         <img src="{{ MEDIA_URL }}uploads/mhn_logo.png">
@@ -118,5 +119,6 @@
 </footer>
 
 {% include "includes/footer_scripts.html" %}
+{% endblock %}
 </body>
 </html>
