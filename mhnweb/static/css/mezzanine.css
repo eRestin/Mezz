@@ -170,6 +170,9 @@ a.btn-large, input.btn-large {width:auto; min-width:100px; margin-right:10px;}
 .no_margin {
   margin-left: 0px!important;
 }
+.no_foot_margin {
+  margin: 0px!important;
+}
 .prefoot_text {
   margin-top:-20px;
   margin-left:-15px!important;
