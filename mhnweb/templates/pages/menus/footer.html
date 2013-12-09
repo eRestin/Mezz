@@ -7,16 +7,16 @@
 {% for page in page_branch %}
     {% if page.is_primary %}
         {% if forloop.first %}
-            <ul class="clearfix">
+            <ul class="no_margin clearfix">
         {% endif %}
         {% if page.in_menu %}
-            <li><ul>
+            <li><ul class="no_margin">
         {% endif %}
     {% endif %}
 
     {% if page.in_menu %}
         {% if forloop.first and not page.parent.in_menu and not page.is_primary %}
-            <li><ul>
+            <li><ul class="no_margin">
         {% endif %}
         <li {% if page.is_current_or_ascendant %}class="active"{% endif %}
             id="footer-menu-{{ page.html_id }}">
