@@ -400,6 +400,9 @@ ol.bjqs-markers li {
 .active-marker a { color:#DEBB1E; }
 p.bjqs-caption{display:block;width:96%;margin:0;padding:2%;position:absolute;bottom:0;}
 
+.foot_active a {
+  color: #f08421;
+}
 #dropdown-menu-privacy-policy {
   display: none;
 }

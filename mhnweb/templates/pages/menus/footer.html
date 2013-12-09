@@ -18,7 +18,7 @@
         {% if forloop.first and not page.parent.in_menu and not page.is_primary %}
             <li><ul class="no_foot_margin">
         {% endif %}
-        <li {% if page.is_current_or_ascendant %}class="active"{% endif %}
+        <li {% if page.is_current_or_ascendant %}class="foot_active"{% endif %}
             id="footer-menu-{{ page.html_id }}">
             <a href="{{ page.get_absolute_url }}"><h6>{{ page.title }}</h6></a></li>
     {% endif %}
