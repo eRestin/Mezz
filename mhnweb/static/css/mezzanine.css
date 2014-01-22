@@ -47,13 +47,13 @@ ul.nav li.dropdown:hover ul.dropdown-menu {display:block;}
 .prefooter {background:#737914;
             padding: 20px 20px 20px 20px;
             text-align:center; width: 960px;
-            margin: 0 auto;
+            margin: -10px auto 10px;
             -webkit-border-bottom-right-radius: 10px;
             -moz-border-radius-bottomright: 10px;
             border-bottom-right-radius: 10px;}
 .prefoot_img {width: 32px; height: 32px; margin: 0 5px;}
 footer {/*background:rgba(220,220,220, 0.1);*/ padding:10px 0; text-align:center; /*margin-top:40px;*/}
-footer .container {text-align:left; display:inline-block; width:auto;}
+footer .container {/*text-align:left;*/ display:inline-block; width:auto;}
 footer li {float:left; list-style-type:none;}
 footer li li {float:none; clear:both; /* width:120px; */ padding:0px 0; margin-right:30px;}
 footer p {margin-top:40px; text-align:center; font-size:12px;}
