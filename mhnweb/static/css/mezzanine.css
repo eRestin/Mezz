@@ -179,7 +179,7 @@ a.btn-large, input.btn-large {width:auto; min-width:100px; margin-right:10px;}
 }
 .foots {
   text-align: right;
-  float: right;
+  float: right!important;
   margin-right: 30px!important;
 }
 .bloggy {
