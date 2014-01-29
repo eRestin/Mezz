@@ -1,4 +1,3 @@
-ALLOWED_HOSTS = ['*']
 ######################
 # MEZZANINE SETTINGS #
 ######################
@@ -119,7 +118,7 @@ SITE_ID = 1
 
 # If you set this to False, Django will make some optimizations so as not
 # to load the internationalization machinery.
-USE_I18N = False
+USE_I18N = True
 
 # Make this unique, and don't share it with anybody.
 SECRET_KEY = "733be3b1-37d8-47ca-8915-e31a151a6846e2e59e1b-5393-407d-8542-ee1e12114827eddfb52e-3143-4f8c-80ec-b198f42cc3eb"
