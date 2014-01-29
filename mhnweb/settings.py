@@ -1,3 +1,4 @@
+ALLOWED_HOSTS = ['*']
 ######################
 # MEZZANINE SETTINGS #
 ######################
