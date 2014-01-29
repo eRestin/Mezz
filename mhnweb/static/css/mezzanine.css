@@ -81,7 +81,7 @@ textarea.input-xlarge {width: 480px; max-width:945px; height:150px;}
 .datefield input, .datetimefield input {width:auto; margin-right:5px;}
 .form-actions {/*background:rgba(220,220,220, 0.1); border-top:1px solid #eee; */margin-left:-10px !important;}
 a.btn-large, input.btn-large {width:auto; min-width:100px; margin-right:10px;}
-.help-inline {color:#999; display: inherit;}
+.help-inline {color:#999; display: block;}
 #account .middle form {padding-top:20px;}
 .btn-account {margin:auto 5px;}
 .non-field-errors .help-inline {padding:0; margin-bottom:5px; display:block;}
@@ -410,4 +410,14 @@ p.bjqs-caption{display:block;width:96%;margin:0;padding:2%;position:absolute;bot
 }
 #dropdown-menu-terms-conditions {
   display: none;
+}
+/* tooltip */
+.tooltip-colour {
+  background-color: #B94A48!important;
+}
+.help-colour {
+  color: #ffffff!important;
+}
+.tooltip-move {
+  margin: -7px 0px 0px 180px;
 }
