@@ -129,8 +129,8 @@ register_setting(
 register_setting(
     name="FORMS_USE_HTML5",
     description=_("If ``True``, website forms will use HTML5 features."),
-    editable=True,
-    default=True,
+    editable=False,
+    default=False,
 )
 
 register_setting(
