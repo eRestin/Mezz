@@ -7,3 +7,4 @@ mhnweb/.DS_Store
 .coverage
 local_settings.py
 mhnweb/static/media/uploads/.thumbnails
+testproject/

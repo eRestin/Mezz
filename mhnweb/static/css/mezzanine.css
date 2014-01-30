@@ -421,3 +421,6 @@ p.bjqs-caption{display:block;width:96%;margin:0;padding:2%;position:absolute;bot
 .tooltip-move {
   margin: -7px 0px 0px 180px;
 }
+input[type="email"] {
+  width: 480px!important;
+}
