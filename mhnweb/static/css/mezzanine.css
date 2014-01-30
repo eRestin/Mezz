@@ -338,11 +338,16 @@ ul.boxes li:hover {
 }
 #lightbox {
   position: fixed;
-  top: 25%;
-  margin:0 10% 0 9%;
+  top:15%;
+  left:0;
+  width: 100%;
+  text-align: center;
+  text-align: -webkit-center;
+  text-align: -moz-center;
 }
 .lightbox_close {
   color:#ffffff;
+  margin-left: 605px;
 }
 .article-img {
   background-image: url(../img/favicon.png);
