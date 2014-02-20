@@ -60,7 +60,7 @@ register_setting(
         "sent an email with a verification link, which they must click to "
         "enable their account."),
     editable=False,
-    default=False,
+    default=True,
 )
 
 register_setting(
@@ -69,7 +69,7 @@ register_setting(
         "not be enabled by default and a staff member will need to activate "
         "their account in the admin interface."),
     editable=False,
-    default=False,
+    default=True,
 )
 
 register_setting(
