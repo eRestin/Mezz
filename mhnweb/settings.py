@@ -110,7 +110,7 @@ LANGUAGE_CODE = "en"
 # A boolean that turns on/off debug mode. When set to ``True``, stack traces
 # are displayed for error pages. Should always be set to ``False`` in
 # production. Best set to ``True`` in local_settings.py
-DEBUG = True
+DEBUG = False
 
 # Whether a user's session cookie expires when the Web browser is closed.
 SESSION_EXPIRE_AT_BROWSER_CLOSE = True
@@ -119,7 +119,7 @@ SITE_ID = 1
 
 # If you set this to False, Django will make some optimizations so as not
 # to load the internationalization machinery.
-USE_I18N = True
+USE_I18N = False
 
 # Make this unique, and don't share it with anybody.
 SECRET_KEY = "733be3b1-37d8-47ca-8915-e31a151a6846e2e59e1b-5393-407d-8542-ee1e12114827eddfb52e-3143-4f8c-80ec-b198f42cc3eb"

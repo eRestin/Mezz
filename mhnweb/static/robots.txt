@@ -1,1 +1,2 @@
-/Library/Python/2.7/site-packages/mezzanine/core/static/robots.txt
+User-agent: *
+Disallow:

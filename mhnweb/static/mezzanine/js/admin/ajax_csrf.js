@@ -1,1 +1,6 @@
-/Library/Python/2.7/site-packages/mezzanine/core/static/mezzanine/js/admin/ajax_csrf.js
+
+jQuery.ajaxSetup({
+    beforeSend: function(xhr, settings) {
+        xhr.setRequestHeader('X-CSRFToken', window.__csrf_token);
+    }
+});
